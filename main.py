@@ -40,7 +40,7 @@ def replace_in_file(filepath):
 
 
 def main(directory):
-    extensions = ('.cpp', '.h', '.mm', '.mm', '.js')
+    extensions = ('.cpp', '.h', '.mm', '.qml', '.js')
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(extensions):
